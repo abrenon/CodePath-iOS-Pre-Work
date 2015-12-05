@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         let def = defaults.integerForKey("default_tip")
         tipControl.selectedSegmentIndex = def
+        billEditingChanged("0")
     }
 
     
