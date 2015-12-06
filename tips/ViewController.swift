@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var onePersonLabel: UILabel!
+    @IBOutlet weak var twoPersonLabel: UILabel!
+    @IBOutlet weak var threePersonLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,15 +28,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func billEditingChanged(sender: AnyObject) {
-        var tipPercentages = [0.18, 0.2, 0.25]
-        var tipPercent = tipPercentages[tipControl.selectedSegmentIndex]
+        let tipPercentages = [0.18, 0.2, 0.25]
+        let tipPercent = tipPercentages[tipControl.selectedSegmentIndex]
         
-        var billAmount = billField.text!._bridgeToObjectiveC().doubleValue
-        var tip = billAmount * tipPercent
-        var total = billAmount+tip
+        let billAmount = billField.text!._bridgeToObjectiveC().doubleValue
+        let tip = billAmount * tipPercent
+        let total = billAmount+tip
+        let half = total/2
+        let third = total/3
+        let quarter = total/4
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        onePersonLabel.text = String(format: "$%.2f", half)
+        twoPersonLabel.text = String(format: "$%.2f", third)
+        threePersonLabel.text = String(format: "$%.2f", quarter)
+        
         
     }
 
@@ -47,6 +57,7 @@ class ViewController: UIViewController {
         let def = defaults.integerForKey("default_tip")
         tipControl.selectedSegmentIndex = def
         billEditingChanged("0")
+        self.billField.becomeFirstResponder()
     }
 
     
