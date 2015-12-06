@@ -33,6 +33,7 @@ class SettingsViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         let def = defaults.integerForKey("default_tip")
         defaultControl.selectedSegmentIndex = def
+        
     }
 
 }

@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C05E9081C135E5C008C65AC /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C05E9081C135E5C008C65AC /* TipMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C05E90B1C135E5C008C65AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C05E90D1C135E5C008C65AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C05E9101C135E5C008C65AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C05E9121C135E5C008C65AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C05E9151C135E5C008C65AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C05E9171C135E5C008C65AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C05E91C1C135E5C008C65AC /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C05E91C1C135E5C008C65AC /* TipMe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C05E9201C135E5C008C65AC /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 		3C05E9221C135E5C008C65AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C05E9271C135E5C008C65AC /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C05E9271C135E5C008C65AC /* TipMe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C05E92B1C135E5C008C65AC /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		3C05E92D1C135E5C008C65AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C05E9391C136DF7008C65AC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		3C05E9091C135E5C008C65AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C05E9081C135E5C008C65AC /* tips.app */,
-				3C05E91C1C135E5C008C65AC /* tipsTests.xctest */,
-				3C05E9271C135E5C008C65AC /* tipsUITests.xctest */,
+				3C05E9081C135E5C008C65AC /* TipMe.app */,
+				3C05E91C1C135E5C008C65AC /* TipMe.xctest */,
+				3C05E9271C135E5C008C65AC /* TipMe.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C05E9071C135E5C008C65AC /* tips */ = {
+		3C05E9071C135E5C008C65AC /* TipMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C05E9301C135E5C008C65AC /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = 3C05E9301C135E5C008C65AC /* Build configuration list for PBXNativeTarget "TipMe" */;
 			buildPhases = (
 				3C05E9041C135E5C008C65AC /* Sources */,
 				3C05E9051C135E5C008C65AC /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = TipMe;
 			productName = tips;
-			productReference = 3C05E9081C135E5C008C65AC /* tips.app */;
+			productReference = 3C05E9081C135E5C008C65AC /* TipMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3C05E91B1C135E5C008C65AC /* tipsTests */ = {
+		3C05E91B1C135E5C008C65AC /* TipMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C05E9331C135E5C008C65AC /* Build configuration list for PBXNativeTarget "tipsTests" */;
+			buildConfigurationList = 3C05E9331C135E5C008C65AC /* Build configuration list for PBXNativeTarget "TipMeTests" */;
 			buildPhases = (
 				3C05E9181C135E5C008C65AC /* Sources */,
 				3C05E9191C135E5C008C65AC /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				3C05E91E1C135E5C008C65AC /* PBXTargetDependency */,
 			);
-			name = tipsTests;
+			name = TipMeTests;
 			productName = tipsTests;
-			productReference = 3C05E91C1C135E5C008C65AC /* tipsTests.xctest */;
+			productReference = 3C05E91C1C135E5C008C65AC /* TipMe.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3C05E9261C135E5C008C65AC /* tipsUITests */ = {
+		3C05E9261C135E5C008C65AC /* TipMeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C05E9361C135E5C008C65AC /* Build configuration list for PBXNativeTarget "tipsUITests" */;
+			buildConfigurationList = 3C05E9361C135E5C008C65AC /* Build configuration list for PBXNativeTarget "TipMeUITests" */;
 			buildPhases = (
 				3C05E9231C135E5C008C65AC /* Sources */,
 				3C05E9241C135E5C008C65AC /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				3C05E9291C135E5C008C65AC /* PBXTargetDependency */,
 			);
-			name = tipsUITests;
+			name = TipMeUITests;
 			productName = tipsUITests;
-			productReference = 3C05E9271C135E5C008C65AC /* tipsUITests.xctest */;
+			productReference = 3C05E9271C135E5C008C65AC /* TipMe.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C05E9031C135E5C008C65AC /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 3C05E9031C135E5C008C65AC /* Build configuration list for PBXProject "TipMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C05E9071C135E5C008C65AC /* tips */,
-				3C05E91B1C135E5C008C65AC /* tipsTests */,
-				3C05E9261C135E5C008C65AC /* tipsUITests */,
+				3C05E9071C135E5C008C65AC /* TipMe */,
+				3C05E91B1C135E5C008C65AC /* TipMeTests */,
+				3C05E9261C135E5C008C65AC /* TipMeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		3C05E91E1C135E5C008C65AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C05E9071C135E5C008C65AC /* tips */;
+			target = 3C05E9071C135E5C008C65AC /* TipMe */;
 			targetProxy = 3C05E91D1C135E5C008C65AC /* PBXContainerItemProxy */;
 		};
 		3C05E9291C135E5C008C65AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C05E9071C135E5C008C65AC /* tips */;
+			target = 3C05E9071C135E5C008C65AC /* TipMe */;
 			targetProxy = 3C05E9281C135E5C008C65AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,7 +404,7 @@
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipMe;
 			};
 			name = Debug;
 		};
@@ -415,7 +415,7 @@
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.tips;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipMe;
 			};
 			name = Release;
 		};
@@ -426,8 +426,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = TipMe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMe.app/TipMe";
 			};
 			name = Debug;
 		};
@@ -438,8 +438,8 @@
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.tipsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = TipMe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMe.app/TipMe";
 			};
 			name = Release;
 		};
@@ -449,7 +449,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipMe;
 				TEST_TARGET_NAME = tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -461,7 +461,7 @@
 				INFOPLIST_FILE = tipsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alex.tipsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipMe;
 				TEST_TARGET_NAME = tips;
 				USES_XCTRUNNER = YES;
 			};
@@ -470,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C05E9031C135E5C008C65AC /* Build configuration list for PBXProject "tips" */ = {
+		3C05E9031C135E5C008C65AC /* Build configuration list for PBXProject "TipMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C05E92E1C135E5C008C65AC /* Debug */,
@@ -479,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C05E9301C135E5C008C65AC /* Build configuration list for PBXNativeTarget "tips" */ = {
+		3C05E9301C135E5C008C65AC /* Build configuration list for PBXNativeTarget "TipMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C05E9311C135E5C008C65AC /* Debug */,
@@ -487,7 +487,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3C05E9331C135E5C008C65AC /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
+		3C05E9331C135E5C008C65AC /* Build configuration list for PBXNativeTarget "TipMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C05E9341C135E5C008C65AC /* Debug */,
@@ -495,7 +495,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		3C05E9361C135E5C008C65AC /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
+		3C05E9361C135E5C008C65AC /* Build configuration list for PBXNativeTarget "TipMeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C05E9371C135E5C008C65AC /* Debug */,
